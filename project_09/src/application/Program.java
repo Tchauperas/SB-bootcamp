@@ -23,9 +23,7 @@ public class Program {
 				System.out.println("Age: " + age);
 				System.out.println("Height: " + height);
 				x = false;
-			} 
-			
-			catch (InputMismatchException e){
+			} catch (InputMismatchException e) {
 				System.out.println("The age and height fields must be numeric.");
 				sc.nextLine();
 			}
